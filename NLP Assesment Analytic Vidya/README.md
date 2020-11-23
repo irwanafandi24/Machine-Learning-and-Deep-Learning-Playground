@@ -2,6 +2,7 @@
 <p align="justify">NLP is a part of machine learning where we will try to make machine able to understand, analyze, manipulate, and potentially generate human language.  Its goal is to build systems that can make sense of text and perform tasks like <i>machine translation, grammar checking, text summarization, speech recognitiong, topic classification,</i> etc. In this project I will show you the steps <b><i>how to create a simple text classification</i></b> starting from load the dataset until get the predicted class of the text.</p>
 
 **Project Overview**
+<p align="center"><img src="asset/technical_approach.png" width=100%></p> 
 
 ### Let's Get Started
 <p align="justify">The main problem of text data is the data itself. Usually, it comes from the crawling process which is definitely very messy, lots of words are not normal, lots of punctuation and soon. <b><i>The first step, we need to Preprocessing on The Text Data</i></b> and here is the process that commonly used in this step:</p>
@@ -43,7 +44,7 @@
 | `doc 2` | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 0 | 1 | 0 |
 | `doc 3` | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 
-**Term Frequency Inverse Document Frequency (TFIDF)**
+**Term Frequency Inverse Document Frequency (TF-IDF)**
 <p align="justify">TFIDF is a statistical measure that evaluates how relevant a word is to a document in a collection of documents. This is done by multiplying two metrics: how many times a word appears in a document (TF), and the inverse document frequency of the word across a set of documents (IDF).</p>
 <p><i>TF formula and its result</i></p>
 
@@ -82,8 +83,8 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
 <p align="justify"> After we get the documents vector value, now we can <b><i>Start to Build The Text Model</i></b>. In this step, I used several types of machine learning model with hyperparameter tuning to obtain higher accuracy. This is the accuracy result as well as the type of feature extraction used.</p>
 <p align="center"><img src="asset/model.PNG" width=80%></p>
-<p align="justify">Besides the accuracy of the model, we can also visualize the data like: the user who is most mentioned, most frequently hashtags and cloudword. You can see the results below.
+<p align="justify">Besides the accuracy of the model, we can also <b><i>Visualize The Data</i></b> like: the user who is most mentioned, most frequently hashtags and cloudword. You can see the results below.
 <p align="center"><img src="asset/hastag.PNG" width=80%></p> 
 <p align="center"><img src="asset/cloudword.png" width=80%></p> 
 
-🎉 Congrats... Now, you can start to build your own text classification. Maybe you can try to use word2vect or doct2vect for feature extraction:)
+🎉 Congrats... Now, you can start to build your own text classification. Maybe you can try to use word2vect or doct2vect for feature extraction. <b><i>Happy coding guys :)</i></b>
