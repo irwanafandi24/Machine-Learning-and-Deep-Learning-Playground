@@ -81,8 +81,9 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 | `doc 3` | 0.681 | 0 | 0 | 0.518 | 0 | 0 | 0 | 0 | 0.518 | 0 |
 
 <p align="justify"> After we get the documents vector value, now we can <b><i>Start to Build The Text Model</i></b>. In this step, I used several types of machine learning model with hyperparameter tuning to obtain higher accuracy. This is the accuracy result as well as the type of feature extraction used.</p>
-<p align="center"><img src="asset/instagram_flow.PNG" width=100%></p>
+<p align="center"><img src="asset/model.PNG" width=80%></p>
 <p align="justify">Besides the accuracy of the model, we can also visualize the data like: the user who is most mentioned, most frequently hashtags and cloudword. You can see the results below.
-<p align="center"><img src="asset/instagram_flow.PNG" width=100%></p>  
+<p align="center"><img src="asset/hastag.PNG" width=80%></p> 
+<p align="center"><img src="asset/cloudword.png" width=80%></p> 
 
-🎉 Congrats... Now, you can start to build your own text classification. Maybe you can use word2vect or doct2vect :)
+🎉 Congrats... Now, you can start to build your own text classification. Maybe you can try to use word2vect or doct2vect for feature extraction:)
