@@ -83,7 +83,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
 <p align="justify"> After we get the documents vector value, now we can <b><i>Start to Build The Text Model</i></b>. In this step, I used several types of machine learning model with hyperparameter tuning to obtain higher accuracy. This is the accuracy result as well as the type of feature extraction used.</p>
 <p align="center"><img src="asset/model.PNG" width=80%></p>
-<p align="justify">Besides the accuracy of the model, we can also <b><i>Visualize The Data</i></b> like: the user who is most mentioned, most frequently hashtags and cloudword. You can see the results below.
+<p align="justify">Besides the accuracy of the model, we can also <b><i>Visualize The Data</i></b> like: most mentioned account, most frequently hashtags and word cloud. You can see the results below.
 <p align="center"><img src="asset/hastag.PNG" width=80%></p> 
 <p align="center"><img src="asset/cloudword.png" width=80%></p> 
 
