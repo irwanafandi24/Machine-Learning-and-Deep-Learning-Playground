@@ -3,9 +3,11 @@
 
 **Project List:**
 - Basic NLP Analytics Vidya
-- ANN Soon
+- Advanced Machine Learning Bootcamp by DPhi
+- End-To-End Machine Learning Project by Udemy
+- Soon
 
 #
 ```bash
-Last update November 20, 2020
+Last update February 08, 2021
 ```
